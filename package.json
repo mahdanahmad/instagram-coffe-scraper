@@ -1,0 +1,19 @@
+{
+  "name": "instagram-coffe-scraper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "author": "Mahdan Ahmad Fauzi Al-Hasan",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "csvtojson": "^1.1.9",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "request": "^2.83.0"
+  }
+}
