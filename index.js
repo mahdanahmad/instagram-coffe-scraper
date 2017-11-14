@@ -51,7 +51,7 @@ csv().fromFile('public/data.csv')
 			getImageURL(url, (err, result) => {
 				if (result) {
 					// console.log(result);
-					getCaffeTag(result, (err, res) => { if (_.isArray(res) && !_.isEmpty(res)) { images.push({ url: result, tags: res }) tags = _.concat(tags, res); callback(); } else { callback(); }});
+					getCaffeTag(result, (err, res) => { if (_.isArray(res) && !_.isEmpty(res)) { images.push({ url: result, tags: res }); tags = _.concat(tags, res); callback(); } else { callback(); }});
 				} else {
 					callback();
 				}
